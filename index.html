@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <figure style="text-align: center; margin-bottom: 20px;">
+    <img src="maceio.jpg" alt="Foto de Maceió" style="width: 400px; border-radius: 10px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #666;">Maceió, capital das lagoas</figcaption>
+  </figure>
+
+  <h1>Olá, meu nome é David Gomes!</h1>
+  <p>Estou aprendendo programação e estou me divertindo muito.</p>
+
+  <h2>Sobre mim</h2>
+  <p>Me chamo David Gomes, sou advogado e atualmente atuo como Secretário de Ações Estratégicas e Parcerias de Maceió. Estou dando meus primeiros passos no mundo da programação e descobrindo como criar páginas web do zero.</p>
+
+  <h2>Contato</h2>
+  <p>Email: <a href="mailto:davdgomes@hotmail.com">davdgomes@hotmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/david-gomes-cp%C2%B3p-p-ibc-p-278313181/" target="_blank">David Gomes</a></p>
+
+  <h2>Interativo</h2>
+  <button onclick="mostrarMensagem()">Clique aqui!</button>
+  <p id="mensagem"></p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Olá! Essa mensagem foi criada com JavaScript!";
+    }
+  </script>
+
+</body>
+</html>
