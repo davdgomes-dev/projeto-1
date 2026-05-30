@@ -3,29 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Página</title>
+  <title>David Gomes</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <figure style="text-align: center; margin-bottom: 20px;">
-    <img src="maceio.jpg" alt="Foto de Maceió" style="width: 400px; border-radius: 10px;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #666;">Maceió, capital das lagoas</figcaption>
-  </figure>
+  <header>
+    <figure>
+      <img src="maceio.jpg" alt="Foto de Maceió">
+      <figcaption>Maceió, capital das lagoas</figcaption>
+    </figure>
+    <h1>David Gomes</h1>
+    <p>Estou aprendendo programação e estou me divertindo muito.</p>
+  </header>
 
-  <h1>Olá, meu nome é David Gomes!</h1>
-  <p>Estou aprendendo programação e estou me divertindo muito.</p>
+  <main>
 
-  <h2>Sobre mim</h2>
-  <p>Me chamo David Gomes, sou advogado e atualmente atuo como Secretário de Ações Estratégicas e Parcerias de Maceió. Estou dando meus primeiros passos no mundo da programação e descobrindo como criar páginas web do zero.</p>
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Me chamo David Gomes, sou advogado e atualmente atuo como Secretário de Ações Estratégicas e Parcerias de Maceió. Estou dando meus primeiros passos no mundo da programação e descobrindo como criar páginas web do zero.</p>
+    </section>
 
-  <h2>Contato</h2>
-  <p>Email: <a href="mailto:davdgomes@hotmail.com">davdgomes@hotmail.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/david-gomes-cp%C2%B3p-p-ibc-p-278313181/" target="_blank">David Gomes</a></p>
+    <section>
+      <h2>Contato</h2>
+      <p class="contato-item">Email: <a href="mailto:davdgomes@hotmail.com">davdgomes@hotmail.com</a></p>
+      <p class="contato-item">LinkedIn: <a href="https://www.linkedin.com/in/david-gomes-cp%C2%B3p-p-ibc-p-278313181/" target="_blank">David Gomes</a></p>
+    </section>
 
-  <h2>Interativo</h2>
-  <button onclick="mostrarMensagem()">Clique aqui!</button>
-  <p id="mensagem"></p>
+    <section>
+      <h2>Interativo</h2>
+      <button onclick="mostrarMensagem()">Clique aqui!</button>
+      <p id="mensagem"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 David Gomes — Maceió, AL</p>
+  </footer>
 
   <script>
     function mostrarMensagem() {
